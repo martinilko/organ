@@ -1,0 +1,101 @@
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+#nabar {
+  position: fixed;
+}
+hr {
+  color: lightgrey;
+  border-style: none;
+  border-top: 6px dotted;
+  width: 5%;
+}
+
+table {
+  text-align: left;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.navbar {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-bottom: 2rem;
+}
+
+.section-p {
+  font-size: 1.5rem;
+  line-height: 1.25;
+  padding-bottom: 3rem;
+}
+
+.title-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* TITLE */
+
+#title {
+  background-color: #caf2d7;
+}
+/* .logo {
+  font-family: Ubuntu;
+} */
+
+
+/* ABOUT ME */
+
+
+
+/* REPERTOIRE */
+
+.table-area {
+  padding: 0 7%;
+}
+
+/* CONTACT */
+
+
+
+.mailto-button {
+  margin-top: 4rem;
+}
+/* FOOTER */
+
+#footer {
+  padding: 2% 0 1%;
+  background-color: #faf5ef;
+}
+
+.copyright {
+  font-size: 0.75rem;
+}
+
+.social-media {
+  padding: 1%;
+}
+
+.social-icon {
+  padding: 0 10px;
+}
