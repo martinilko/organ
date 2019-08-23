@@ -26,36 +26,20 @@ hr {
   width: 5%;
 }
 
-table {
-  position: relative;
-  table-layout: fixed;
-  text-align: left;
-  width: 100%;
-}
-
-th, td {
-  padding: 15px;
-}
-
 .container-fluid {
-  padding: 7% 15%;
+  padding: 7% 25%;
 }
 
 .navbar {
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
-.section-heading {
-  font-size: 3rem;
-  line-height: 1.5;
-  padding-bottom: 2rem;
-}
 
-.section-p {
-  font-size: 1.5rem;
-  line-height: 1.25;
-  padding-bottom: 3rem;
+/* TITLE */
+
+#title {
+  background-color: #F7F5DE;
 }
 
 .title-heading {
@@ -71,15 +55,6 @@ th, td {
   padding-bottom: 3rem;
 }
 
-/* TITLE */
-
-#title {
-  background-color: #F7F5DE;
-}
-/* .logo {
-  font-family: Ubuntu;
-} */
-
 .top-container {
   position: relative;
 }
@@ -93,16 +68,36 @@ th, td {
 
 /* ABOUT ME */
 
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-bottom: 2rem;
+}
 
+.section-p {
+  font-size: 1.5rem;
+  line-height: 1.25;
+  padding-bottom: 3rem;
+}
 
 /* REPERTOIRE */
+
+table {
+  position: relative;
+  table-layout: fixed;
+  text-align: left;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
 
 .table-area {
   padding: 0 7%;
 }
 
 /* CONTACT */
-
 
 
 .mailto-button {
@@ -132,5 +127,9 @@ th, td {
   .navbar {
     padding-left: 5%;
     padding-right: 5%;
+  }
+
+  .container-fluid {
+    padding: 7%;
   }
 }
