@@ -12,6 +12,9 @@
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/7d6fbde894.js"></script>
 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+
   <!-- CSS StyleSheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
@@ -25,12 +28,13 @@
 
 </head>
 
-  <section id="title">
+<body>
+
 
 
   <!-- NavBar -->
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="navbarid">
 
     <a class="logo navbar-brand" href="">martin ilko</a>
 
@@ -55,15 +59,17 @@
     </div>
   </nav>
 
-<div class="container-fluid">
-  <div class="top-container">
+  <section id="title">
 
-    <h1 class="title-heading">Ahoj! <br>som Martin, organista.</h1>
-    <!-- <p class="title-p">organista.</p> -->
-    <!-- <img class="pipe-organ-image" src="images/pipe-organ-vector.png"> -->
-  </div>
 
-</div>
+    <div class="container-fluid">
+      <div class="top-container">
+
+        <h1 class="title-heading">Ahoj! <br>som Martin, organista.</h1>
+        <!-- <p class="title-p">organista.</p> -->
+      </div>
+
+    </div>
 
 
   </section>
@@ -72,13 +78,15 @@
   <section id="about-me">
 
     <div class="container-fluid">
-    <article class="">
-      <h2 class="section-heading">O mne</h2>
-      <p  class="section-p">Organu sa venujem od svojích 14 rokov. Študoval som (v DK?) na Katolíckej univerzite v Ružomberku, kde som získal veľa cenných skúsensotí a po ukončení štúdia aj magisterský titul v obore cirkevná hudba. Od roku 2017 pôsobím ako farský /
-        domovský / organista v kostole (slovenskej rímsko-katolíckej farnosti) sv. Jindřicha v Prahe.</p>
-    </article>
+      <article class="">
+        <img class="pipe-organ-image" src="images/pipe-organ-square.png">
+        <h2 class="section-heading">O mne</h2>
+        <p class="section-p">Organu sa venujem od svojích 14 rokov. Študoval som (v DK?) na Katolíckej univerzite v Ružomberku, kde som získal veľa cenných skúsensotí a po ukončení štúdia aj magisterský titul v obore cirkevná hudba. Od roku 2017
+          pôsobím ako farský /
+          domovský / organista v kostole (slovenskej rímsko-katolíckej farnosti) sv. Jindřicha v Prahe.</p>
+      </article>
   </section>
-</div>
+  </div>
 
 
   <hr>
@@ -86,103 +94,103 @@
   <section id="repertoire">
 
     <div class="container-fluid">
-    <h2 class="section-heading">Repertoár</h2>
-    <p  class="section-p">Tu mozeme najst nejaky standardny repec. Naucit sa nieco nove nie je problem. Avsak vyber taky aby zodpovedal dostojnosti priestoru</p>
+      <h2 class="section-heading">Repertoár</h2>
+      <p class="section-p">Tu mozeme najst nejaky standardny repec. Naucit sa nieco nove nie je problem. Avsak vyber taky aby zodpovedal dostojnosti priestoru</p>
 
-    <div class="table-area">
+      <div class="table-area">
 
-    <nav>
-      <div class="nav nav-tabs" id="nav-tab" role="tablist">
-        <a class="nav-item nav-link active" id="nav-organ-tab" data-toggle="tab" href="#nav-organ" role="tab" aria-controls="nav-organ" aria-selected="true">Sólo organ</a>
-        <a class="nav-item nav-link" id="nav-voice-tab" data-toggle="tab" href="#nav-voice" role="tab" aria-controls="nav-voice" aria-selected="false">Organ & spev</a>
-        <a class="nav-item nav-link" id="nav-violin-tab" data-toggle="tab" href="#nav-violin" role="tab" aria-controls="nav-violin" aria-selected="false">Organ & husle</a>
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active" id="nav-organ-tab" data-toggle="tab" href="#nav-organ" role="tab" aria-controls="nav-organ" aria-selected="true">Sólo organ</a>
+            <a class="nav-item nav-link" id="nav-voice-tab" data-toggle="tab" href="#nav-voice" role="tab" aria-controls="nav-voice" aria-selected="false">Organ & spev</a>
+            <a class="nav-item nav-link" id="nav-violin-tab" data-toggle="tab" href="#nav-violin" role="tab" aria-controls="nav-violin" aria-selected="false">Organ & husle</a>
+          </div>
+        </nav>
+
+        <div class="tab-content" id="nav-tabContent">
+
+          <div class="tab-pane fade show active" id="nav-organ" role="tabpanel" aria-labelledby="nav-organ-tab">
+            <table>
+              <tr>
+                <th>Názov</th>
+                <th>Interprét</th>
+                <th>Využitie</th>
+              </tr>
+              <tr>
+                <td>Ave Maria</td>
+                <td>Bach/Gounod</td>
+                <td>O, P, podpis</td>
+              </tr>
+              <tr>
+                <td>Ave Maria</td>
+                <td>Schubert</td>
+                <td>O, P, podpis</td>
+              </tr>
+              <tr>
+                <td>Nebeští kavalérové</td>
+                <td>Michna</td>
+                <td>Ú, Z</td>
+              </tr>
+              <tr>
+                <td><a class="far fa-play-circle" href="https://www.youtube.com/watch?v=P6rX3wlDsVI" target="_blank"></a> Svadobný pochod</td>
+                <td>Mendelssohn-Bartholdy</td>
+                <td>Ú, Z</td>
+              </tr>
+              <tr>
+                <td>Svadobný pochod</td>
+                <td>Wagner</td>
+                <td>Ú, Z</td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="tab-pane fade" id="nav-voice" role="tabpanel" aria-labelledby="nav-voice-tab">
+            <table>
+              <tr>
+                <th>Názov</th>
+                <th>Interprét</th>
+                <th>Využitie</th>
+              </tr>
+              <tr>
+                <td>Ave Maria</td>
+                <td>Bach/Gounod</td>
+                <td>O, P, podpis</td>
+              </tr>
+              <tr>
+                <td>Ave Maria</td>
+                <td>Schubert</td>
+                <td>O, P, podpis</td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="tab-pane fade" id="nav-violin" role="tabpanel" aria-labelledby="nav-violin-tab">
+            <table>
+              <tr>
+                <th>Názov</th>
+                <th>Interprét</th>
+                <th>Využitie</th>
+              </tr>
+              <tr>
+                <td>Ave Maria</td>
+                <td>Bach/Gounod</td>
+                <td>O, P, podpis</td>
+              </tr>
+              <tr>
+                <td>Ave Maria</td>
+                <td>Schubert</td>
+                <td>O, P, podpis</td>
+              </tr>
+              <tr>
+                <td>Nebeští kavalérové</td>
+                <td>Michna</td>
+                <td>Ú, Z</td>
+              </tr>
+            </table>
+          </div>
+
+        </div>
       </div>
-    </nav>
-
-    <div class="tab-content" id="nav-tabContent">
-
-      <div class="tab-pane fade show active" id="nav-organ" role="tabpanel" aria-labelledby="nav-organ-tab">
-        <table>
-          <tr>
-            <th>Názov</th>
-            <th>Interprét</th>
-            <th>Využitie</th>
-          </tr>
-          <tr>
-            <td>Ave Maria</td>
-            <td>Bach/Gounod</td>
-            <td>O, P, podpis</td>
-          </tr>
-          <tr>
-            <td>Ave Maria</td>
-            <td>Schubert</td>
-            <td>O, P, podpis</td>
-          </tr>
-          <tr>
-            <td>Nebeští kavalérové</td>
-            <td>Michna</td>
-            <td>Ú, Z</td>
-          </tr>
-          <tr>
-            <td><a class="far fa-play-circle" href="https://www.youtube.com/watch?v=P6rX3wlDsVI" target="_blank"></a> Svadobný pochod</td>
-            <td>Mendelssohn-Bartholdy</td>
-            <td>Ú, Z</td>
-          </tr>
-          <tr>
-            <td>Svadobný pochod</td>
-            <td>Wagner</td>
-            <td>Ú, Z</td>
-          </tr>
-        </table>
-      </div>
-
-      <div class="tab-pane fade" id="nav-voice" role="tabpanel" aria-labelledby="nav-voice-tab">
-        <table>
-          <tr>
-            <th>Názov</th>
-            <th>Interprét</th>
-            <th>Využitie</th>
-          </tr>
-          <tr>
-            <td>Ave Maria</td>
-            <td>Bach/Gounod</td>
-            <td>O, P, podpis</td>
-          </tr>
-          <tr>
-            <td>Ave Maria</td>
-            <td>Schubert</td>
-            <td>O, P, podpis</td>
-          </tr>
-        </table>
-      </div>
-
-      <div class="tab-pane fade" id="nav-violin" role="tabpanel" aria-labelledby="nav-violin-tab">
-        <table>
-          <tr>
-            <th>Názov</th>
-            <th>Interprét</th>
-            <th>Využitie</th>
-          </tr>
-          <tr>
-            <td>Ave Maria</td>
-            <td>Bach/Gounod</td>
-            <td>O, P, podpis</td>
-          </tr>
-          <tr>
-            <td>Ave Maria</td>
-            <td>Schubert</td>
-            <td>O, P, podpis</td>
-          </tr>
-          <tr>
-            <td>Nebeští kavalérové</td>
-            <td>Michna</td>
-            <td>Ú, Z</td>
-          </tr>
-        </table>
-      </div>
-
-    </div>
-  </div>
 
 
 
@@ -193,7 +201,7 @@
   <section id="contact">
     <article class="container-fluid">
       <h2 class="section-heading">Nejaký nadpis</h2>
-      <p  class="section-p">tu mozno nejaky text o kontakte, ako si objednat ("vystupenie"), koho a tak...prip mozme aj prehodit s tabulkou (sekciou repertoar)</p>
+      <p class="section-p">tu mozno nejaky text o kontakte, ako si objednat ("vystupenie"), koho a tak...prip mozme aj prehodit s tabulkou (sekciou repertoar)</p>
       <a href="mailto:martin.ilko@gmail.com" class="mailto-button btn btn-primary btn-lg">CONTACT ME</a>
     </article>
   </section>

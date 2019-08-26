@@ -1,11 +1,6 @@
-html {
-  scroll-behavior: smooth;
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
+/* *, *:before, *:after {
   box-sizing: inherit;
-}
+} */
 
 a:hover {
   text-decoration: none;
@@ -13,17 +8,24 @@ a:hover {
 
 body {
   text-align: center;
+  font-family: sans-serif;
 }
 
-#nabar {
-  position: fixed;
+h2 {
+  /* color: #5B231C; */
+  color: #8B4A22;
 }
 
 hr {
-  color: lightgrey;
+  color: #F7F5DE;
   border-style: none;
   border-top: 6px dotted;
-  width: 5%;
+  width: 4%;
+}
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 .container-fluid {
@@ -33,19 +35,22 @@ hr {
 .navbar {
   padding-left: 25%;
   padding-right: 25%;
+  transition: top 0.5s;
+  background-color: #CB9535;
 }
 
 
 /* TITLE */
 
 #title {
-  background-color: #F7F5DE;
+  background-color: #CB9535;
 }
 
 .title-heading {
-  /* color: white; */
-  font-size: 3.5rem;
+  color: white;
+  font-size: 7rem;
   line-height: 1.5;
+  font-family: 'Dancing Script', cursive;
 }
 
 .title-p {
@@ -57,16 +62,18 @@ hr {
 
 .top-container {
   position: relative;
+  height: 510px;
 }
 
-.top-container .pipe-organ-image {
-  top: 1rem;
-  right: 15rem;
-  position: absolute;
-  width: 200px;
-}
 
 /* ABOUT ME */
+
+.pipe-organ-image {
+  border-radius: 50%;
+  width: 15em;
+  height: 15em;
+  margin-bottom: 20px;
+}
 
 .section-heading {
   font-size: 3rem;
@@ -102,16 +109,20 @@ th, td {
 
 .mailto-button {
   margin-top: 4rem;
+  /* background-color: #995C30; */
+  background-color: #CB9535;
+
+  border: 0;
+}
+
+.mailto-button:hover {
+  background-color: #995C30;
 }
 /* FOOTER */
 
 #footer {
   padding: 2% 0 1%;
-  background-color: #faf5ef;
-}
-
-.copyright {
-  font-size: 0.75rem;
+  background-color: #F7F5DE;
 }
 
 .social-media {
@@ -119,11 +130,29 @@ th, td {
 }
 
 .social-icon {
-  padding: 0 10px;
+  padding: 0 10px 5px;
+  color: #995C30;
+  /* color: #B27527; */
+  /* color: #CB9535; */
+  font-size: 1.25rem;
 }
 
+.social-icon:hover {
+  /* color: #8B4A22; */
+  color: #CB9535;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  color: #grey;
+}
 
 @media only screen and (max-width: 991px) {
+
+  hr {
+    width: 6%;
+  }
+
   .navbar {
     padding-left: 5%;
     padding-right: 5%;
@@ -132,4 +161,11 @@ th, td {
   .container-fluid {
     padding: 7%;
   }
+
+  .title-heading {
+    color: white;
+    font-size: 6rem;
+    padding-top: 45px;
+  }
+
 }
