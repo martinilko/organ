@@ -93,25 +93,22 @@ html {
   padding-bottom: 3rem;
 }
 
+
 /* REPERTOIRE */
 
-table {
-  position: relative;
-  table-layout: fixed;
-  text-align: left;
-  width: 100%;
+.repertoire-list {
+  list-style: none;
+  list-style-position: inside;
+  padding-left: 30%;
+  padding-right: 30%;
 }
 
-th, td {
-  padding: 15px;
+.repertoire-list a {
+  color: #995C30;
 }
 
-.table-area {
-  padding: 0 7%;
-}
 
 /* CONTACT */
-
 
 .mailto-button {
   margin-top: 4rem;
@@ -124,6 +121,8 @@ th, td {
 .mailto-button:hover {
   background-color: #995C30;
 }
+
+
 /* FOOTER */
 
 #footer {
@@ -153,6 +152,8 @@ th, td {
   color: #grey;
 }
 
+
+
 @media only screen and (max-width: 991px) {
 
   hr {
@@ -170,6 +171,11 @@ th, td {
 
   .pipe-organ-image {
     margin-top: 20px;
+  }
+
+  .repertoire-list {
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .section-p {

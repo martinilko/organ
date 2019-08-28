@@ -1,3 +1,5 @@
+// SHOW AND HIDE NAVBAR ON SCROLL
+
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
@@ -8,3 +10,10 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
+
+
+// HIDE NAVBAR LI ON CLICK
+
+$('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});

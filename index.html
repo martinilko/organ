@@ -24,6 +24,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+
+
   <title>Martin Ilko</title>
 
 </head>
@@ -45,13 +47,13 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
           <a class="nav-link" href="#about-me">O mne</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
           <a class="nav-link" href="#repertoire">Repertoár</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
           <a class="nav-link" href="#contact">Kontakt</a>
         </li>
       </ul>
@@ -82,8 +84,7 @@
         <img class="pipe-organ-image" src="images/pipe-organ-square.png">
         <h2 class="section-heading">O mne</h2>
         <p class="section-p">Organu sa venujem od svojích 14 rokov. Študoval som (v DK?) na Katolíckej univerzite v Ružomberku, kde som získal veľa cenných skúsensotí a po ukončení štúdia aj magisterský titul v obore cirkevná hudba. Od roku 2017
-          pôsobím ako farský /
-          domovský / organista v kostole (slovenskej rímsko-katolíckej farnosti) sv. Jindřicha v Prahe.</p>
+          pôsobím ako farský / domovský / organista v kostole (slovenskej rímsko-katolíckej farnosti) sv. Jindřicha v Prahe.</p>
       </article>
   </section>
   </div>
@@ -97,102 +98,20 @@
       <h2 class="section-heading">Repertoár</h2>
       <p class="section-p">Tu mozeme najst nejaky standardny repec. Naucit sa nieco nove nie je problem. Avsak vyber taky aby zodpovedal dostojnosti priestoru</p>
 
-      <div class="table-area">
-
-        <nav>
-          <div class="nav nav-tabs" id="nav-tab" role="tablist">
-            <a class="nav-item nav-link active" id="nav-organ-tab" data-toggle="tab" href="#nav-organ" role="tab" aria-controls="nav-organ" aria-selected="true">Sólo organ</a>
-            <a class="nav-item nav-link" id="nav-voice-tab" data-toggle="tab" href="#nav-voice" role="tab" aria-controls="nav-voice" aria-selected="false">Organ & spev</a>
-            <a class="nav-item nav-link" id="nav-violin-tab" data-toggle="tab" href="#nav-violin" role="tab" aria-controls="nav-violin" aria-selected="false">Organ & husle</a>
-          </div>
-        </nav>
-
-        <div class="tab-content" id="nav-tabContent">
-
-          <div class="tab-pane fade show active" id="nav-organ" role="tabpanel" aria-labelledby="nav-organ-tab">
-            <table>
-              <tr>
-                <th>Názov</th>
-                <th>Interprét</th>
-                <th>Využitie</th>
-              </tr>
-              <tr>
-                <td>Ave Maria</td>
-                <td>Bach/Gounod</td>
-                <td>O, P, podpis</td>
-              </tr>
-              <tr>
-                <td>Ave Maria</td>
-                <td>Schubert</td>
-                <td>O, P, podpis</td>
-              </tr>
-              <tr>
-                <td>Nebeští kavalérové</td>
-                <td>Michna</td>
-                <td>Ú, Z</td>
-              </tr>
-              <tr>
-                <td><a class="far fa-play-circle" href="https://www.youtube.com/watch?v=P6rX3wlDsVI" target="_blank"></a> Svadobný pochod</td>
-                <td>Mendelssohn-Bartholdy</td>
-                <td>Ú, Z</td>
-              </tr>
-              <tr>
-                <td>Svadobný pochod</td>
-                <td>Wagner</td>
-                <td>Ú, Z</td>
-              </tr>
-            </table>
-          </div>
-
-          <div class="tab-pane fade" id="nav-voice" role="tabpanel" aria-labelledby="nav-voice-tab">
-            <table>
-              <tr>
-                <th>Názov</th>
-                <th>Interprét</th>
-                <th>Využitie</th>
-              </tr>
-              <tr>
-                <td>Ave Maria</td>
-                <td>Bach/Gounod</td>
-                <td>O, P, podpis</td>
-              </tr>
-              <tr>
-                <td>Ave Maria</td>
-                <td>Schubert</td>
-                <td>O, P, podpis</td>
-              </tr>
-            </table>
-          </div>
-
-          <div class="tab-pane fade" id="nav-violin" role="tabpanel" aria-labelledby="nav-violin-tab">
-            <table>
-              <tr>
-                <th>Názov</th>
-                <th>Interprét</th>
-                <th>Využitie</th>
-              </tr>
-              <tr>
-                <td>Ave Maria</td>
-                <td>Bach/Gounod</td>
-                <td>O, P, podpis</td>
-              </tr>
-              <tr>
-                <td>Ave Maria</td>
-                <td>Schubert</td>
-                <td>O, P, podpis</td>
-              </tr>
-              <tr>
-                <td>Nebeští kavalérové</td>
-                <td>Michna</td>
-                <td>Ú, Z</td>
-              </tr>
-            </table>
-          </div>
-
-        </div>
-      </div>
-
-
+        <ul class="repertoire-list">
+          <li><a href="https://www.youtube.com/watch?v=8Ss3zHwXkFI" target="_blank">♫</a> Autumn (Vivaldi)</li>
+          <li><a href="https://www.youtube.com/watch?v=2TFeSYw0WeI" target="_blank">♫</a> Ave Maria (Bach/Gounod)</li>
+          <li><a href="https://www.youtube.com/watch?v=gfFpHArBxQU" target="_blank">♫</a> Ave Maria (Schubert)</li>
+          <li><a href="https://www.youtube.com/watch?v=uO1g8LjOWsk" target="_blank">♫</a> Largo (Handel)</li>
+          <li><a href="https://www.youtube.com/watch?v=cb86fVwf3aw" target="_blank">♫</a> Nebeští kavalérové (Michna)</li>
+          <li><a href="https://www.youtube.com/watch?v=k43-BDXt0GU" target="_blank">♫</a> Nun danket alle Gott (Karg-Ellert)</li>
+          <li><a href="https://www.youtube.com/watch?v=fB_b9O8TxWg" target="_blank">♫</a> Preludium C major (Bach)</li>
+          <li><a href="https://www.youtube.com/watch?v=1z01NvQB2YE" target="_blank">♫</a> Preludium D minor (Bach)</li>
+          <li><a href="https://www.youtube.com/watch?v=4tDYMayp6Dk" target="_blank">♫</a> Svadobný pochod (Mendelssohn-Bartholdy)</li>
+          <li><a href="https://www.youtube.com/watch?v=P6rX3wlDsVI" target="_blank">♫</a> Svadobný pochod (Wagner)</li>
+          <li><a href="https://www.youtube.com/watch?v=-ui5_MP3Vws" target="_blank">♫</a> Te Deum (Charpentier)</li>
+          <li><a href="https://www.youtube.com/watch?v=D5j8jUa_M8I" target="_blank">♫</a> Trumpet Voluntary (Clarke)</li>
+        </ul>
 
   </section>
 
