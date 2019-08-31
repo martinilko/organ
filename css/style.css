@@ -130,6 +130,11 @@ html {
   background-color: #F7F5DE;
 }
 
+.copyright {
+  font-size: 0.75rem;
+  color: grey;
+}
+
 .social-media {
   padding: 1%;
 }
@@ -145,11 +150,6 @@ html {
 .social-icon:hover {
   /* color: #8B4A22; */
   color: #CB9535;
-}
-
-.copyright {
-  font-size: 0.75rem;
-  color: #grey;
 }
 
 
