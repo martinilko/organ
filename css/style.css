@@ -109,6 +109,7 @@ html {
 .repertoire-list a {
   /* color: #995C30; */
   color: #83b582;
+  /* color: #d6e4aa; */
 }
 
 
@@ -126,6 +127,7 @@ html {
 
 .mailto-button:hover {
   background-color: #995C30;
+  transition: 0.5s;
 }
 
 
@@ -157,6 +159,7 @@ html {
 .social-icon:hover {
   /* color: #8B4A22; */
   color: #CB9535;
+  transition: 0.5s;
 }
 
 
