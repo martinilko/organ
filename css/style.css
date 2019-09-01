@@ -14,16 +14,13 @@ body {
   overflow-x: hidden;
 }
 
-h2 {
-  /* color: #5B231C; */
-  color: #8B4A22;
-}
 
 hr {
-  color: #F7F5DE;
+  /* color: #83b582; */
+  color: #d6e4aa;
   border-style: none;
-  border-top: 6px dotted;
-  width: 4%;
+  border-top: 8px dotted;
+  width: 5%;
 }
 
 html {
@@ -42,21 +39,39 @@ html {
   padding-left: 25%;
   padding-right: 25%;
   transition: top 0.5s;
-  background-color: #CB9535;
+  background-color: #985930;
 }
 
+.section-heading {
+  /* color: #5B231C; */
+  color: #8B4A22;
+  font-family: 'Caveat', sans-serif;
+  font-size: 5rem;
+  line-height: 1.5;
+  padding-bottom: 2rem;
+}
+
+.section-p {
+  font-family: 'Manjari', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  padding-bottom: 3rem;
+}
 
 /* TITLE */
 
 #title {
-  background-color: #CB9535;
+  background-color: #d6e4aa;
 }
 
 .title-heading {
   color: white;
+  /* font-weight: lighter; */
   font-size: 7rem;
   line-height: 1.5;
-  font-family: 'Dancing Script', cursive;
+  /* font-family: 'Satisfy', sans-serif; */
+  font-family: 'Caveat', sans-serif;
+
 }
 
 .title-p {
@@ -81,30 +96,19 @@ html {
   margin-top: 20px;
 }
 
-.section-heading {
-  font-size: 3rem;
-  line-height: 1.5;
-  padding-bottom: 2rem;
-}
-
-.section-p {
-  font-size: 1.5rem;
-  line-height: 1.25;
-  padding-bottom: 3rem;
-}
-
 
 /* REPERTOIRE */
 
 .repertoire-list {
+  font-family: 'Manjari', sans-serif;
+  font-size: 1.2rem;
   list-style: none;
   list-style-position: inside;
-  padding-left: 30%;
-  padding-right: 30%;
 }
 
 .repertoire-list a {
-  color: #995C30;
+  /* color: #995C30; */
+  color: #83b582;
 }
 
 
@@ -113,7 +117,9 @@ html {
 .mailto-button {
   margin-top: 4rem;
   /* background-color: #995C30; */
-  background-color: #CB9535;
+  /* background-color: #CB9535; */
+  background-color: #83b582;
+
 
   border: 0;
 }
@@ -127,7 +133,8 @@ html {
 
 #footer {
   padding: 2% 0 1%;
-  background-color: #F7F5DE;
+  /* background-color: #F7F5DE; */
+  background-color: #d6e4aa;
 }
 
 .copyright {
@@ -185,6 +192,7 @@ html {
   .title-heading {
     color: white;
     font-size: 5rem;
+    line-height: 1.2;
     padding-top: 45px;
   }
 
