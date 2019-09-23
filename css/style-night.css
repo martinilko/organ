@@ -112,6 +112,12 @@ html {
   color: #83b582;
 }
 
+.repertoire-list a:hover {
+  color: #CB9535;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
 
 /* CONTACT */
 
