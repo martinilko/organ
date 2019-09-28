@@ -198,3 +198,23 @@ html {
   }
 
 }
+
+
+/* DARKMODE */
+
+.night {
+  background-color: black;
+  color: white;
+}
+
+.night.title-heading {
+  color: #d6e4aa;
+}
+
+.night#title {
+  background-color: black;
+}
+
+.night#footer {
+  background-color: black;
+}
