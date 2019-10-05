@@ -20,44 +20,19 @@ $('.navbar-nav>li>a').on('click', function() {
   $('.navbar-collapse').collapse('hide');
 });
 
-// DAY NIGHT
-
-// function getStylesheet() {
-//       var currentTime = new Date().getHours();
-//       if (0 <= currentTime&&currentTime < 6) {
-//        document.write("<link rel='stylesheet' href='css/style-night.css' type='text/css'>");
-//       }
-//       if (6 <= currentTime&&currentTime < 21) {
-//        document.write("<link rel='stylesheet' href='css/style.css' type='text/css'>");
-//       }
-//       if (21 <= currentTime&&currentTime <= 24) {
-//         document.write("<link rel='stylesheet' href='css/style-night.css' type='text/css'>");
-//       }
-// }
-//
-// getStylesheet();
 
 
-// NEW DARK MODE
+// DARK MODE
 
-function darkmode() {
-      var currentTime = new Date().getHours();
-      if (0 <= currentTime&&currentTime < 6) {
-        document.querySelector("body").classList.add("night");
-        document.querySelector("h1").classList.add("night");
-        document.querySelector("section").classList.add("night");
-        document.querySelector("footer").classList.add("night");      }
-      if (6 <= currentTime&&currentTime < 21) {
-        document.querySelector("body").classList.remove("night");
-        document.querySelector("h1").classList.remove("night");
-        document.querySelector("section").classList.remove("night");
-        document.querySelector("footer").classList.remove("night");
-      }
-      if (21 <= currentTime&&currentTime <= 24) {
-        document.querySelector("body").classList.add("night");
-        document.querySelector("h1").classList.add("night");
-        document.querySelector("section").classList.add("night");
-        document.querySelector("footer").classList.add("night");      }
+var x = $("body, h1, section, footer");
+var currentTime = new Date().getHours();
+
+if (6 <= currentTime && currentTime < 21) {
+  for (i = 0; i < x.length; i++) {
+    x[i].classList.remove("night");
+  }
+} else {
+  for (i = 0; i < x.length; i++) {
+    x[i].classList.add("night");
+  }
 }
-
-darkmode();
