@@ -63,11 +63,18 @@ html {
   padding-bottom: 3rem;
 }
 
+.section-p a {
+  color: #83b582;
+}
+
+.section-p a:hover {
+  color: #CB9535;
+}
+
 /* TITLE */
 
 #title {
   background-color: #d6e4aa;
-  height: 100vh;
 
 }
 
